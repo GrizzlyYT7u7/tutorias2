@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro | SGTA</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">Registro</div>
+      <form id="formulario" (submit)="registrar()">
+        <div class="detalles-usuario">
+          <!-- NOMBRE -->
+          <div class="input-box formulario__grupo" id="grupo__nombre">
+            <span class="detalles">Nombre Completo</span>
+            <div class="formulario__grupo-input">
+              <input
+                type="text"
+                class="formulario__input"
+                name="nombre"
+                id="nombre"
+                placeholder="Ingresa tu nombre"
+                #nombreInput
+              />
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">
+              El nombre tiene que ser de 1 a 50 caracteres
+            </p>
+          </div>
+          <!-- CORREO -->
+          <div class="input-box formulario__grupo" id="grupo__correo">
+            <span class="detalles">Correo Institucional</span>
+            <div class="formulario__grupo-input">
+              <input
+                type="email"
+                class="formulario__input"
+                name="correo"
+                id="correo"
+                placeholder="Ingresa tu correo institucional"
+              />
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">
+              El correo solo puede contener letras, numeros, puntos, guiones y
+              guion bajo.
+            </p>
+          </div>
+          <!-- CARRERA -->
+          <div class="input-box formulario__grupo" id="grupo__carrera">
+            <span class="detalles">Carrera</span>
+            <div class="formulario__grupo-input">
+              <input
+                type="text"
+                class="formulario__input"
+                name="carrera"
+                id="carrera"
+                placeholder="Ingresa tu carrera"
+              />
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">
+              El usuario tiene que ser de 4 a 16 dígitos y solo puede contener
+              numeros, letras y guion bajo.
+            </p>
+          </div>
+          <!-- TELEFONO -->
+          <div class="input-box formulario__grupo" id="grupo__telefono">
+            <span class="detalles">Teléfono</span>
+            <div class="formulario__grupo-input">
+              <input
+                type="text"
+                class="formulario__input"
+                name="telefono"
+                id="telefono"
+                placeholder="Ingresa tu teléfono"
+              />
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">Ingrese un numero válido.</p>
+          </div>
+          <!-- CONTRASEÑA -->
+          <div class="input-box formulario__grupo" id="grupo__password">
+            <span class="detalles">Contraseña</span>
+            <div class="formulario__grupo-input">
+              <input
+                type="password"
+                class="formulario__input"
+                name="password"
+                id="password"
+                placeholder="Ingresa tu Contaseña"
+              />
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">
+              La contraseña tiene que ser de 4 a 12 dígitos.
+            </p>
+          </div>
+          <!-- CONTRASEÑA 2 -->
+          <div class="input-box formulario__grupo" id="grupo__password2">
+            <span class="detalles">Confirma tu contraseña</span>
+            <div class="formulario__grupo-input">
+              <input
+                type="password"
+                class="formulario__input"
+                name="password2"
+                id="password2"
+                placeholder="Confirma tu contraseña"
+              />
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">
+              Las contraseñas deben ser iguales
+            </p>
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit">Registrarse</button><br />
+          <span
+            >¿Ya tienes cuenta?
+            <a
+              routerLink="/login"
+              style="text-decoration: none; color: black; font-weight: 600"
+              >Inicia Sesión</a
+            ></span
+          >
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

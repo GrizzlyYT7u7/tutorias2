@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Materias | SGTA</title>
+  </head>
+
+  <body>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class="bx bxs-school"></i>
+        <span class="logo_name">SGTA</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a routerLink="/materias">
+            <i class="bx bx-grid-alt"></i>
+            <span class="link_name">Materias</span>
+          </a>
+        </li>
+        <li></li>
+        <li>
+          <a routerLink="/docentes">
+            <i class="bx bx-user"></i>
+            <span class="link_name">Profesores</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/notificaciones">
+            <i class="bx bx-notification"></i>
+            <span class="link_name">Notificaciones</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span class="link_name">Cuenta</span>
+          </a>
+        </li>
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="/assets/profile.jpg" alt="profileImg" />
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Jennifer</div>
+              <div class="job">Vásquez</div>
+            </div>
+            <a routerLink="/login"><i class="bx bx-log-out"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <span class="text">Materias Disponibles</span>
+        <div class="container">
+          <div class="box">
+            <div class="name_job">Interfaz Humano Computador</div>
+            <h4>Ing. Elsa Vera</h4>
+            <p>Horario:</p>
+            <p>Lun, Martes,Miercoles</p>
+            <p>14H00 - 16H00</p>
+            <div class="btns">
+              <button title=" Solicitar Tutoría">
+                <a routerLink="/tutorias_estudiante">+</a>
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="name_job">Aplicaciones Web I</div>
+            <h4>Ing. Patricia Quiroz</h4>
+            <p>Horario:</p>
+            <p>Lun, Miercoles, Viernes</p>
+            <p>13H00 - 15H00</p>
+            <div class="btns">
+              <button title="Solicitar Tutoría">
+                <a routerLink="/tutorias_estudiante">+</a>
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="name_job">Inteligencia Artificial</div>
+            <h4>Ing. Maria López</h4>
+            <p>Horario:</p>
+            <p>Martes, Jueves</p>
+            <p>15H00 - 18H00</p>
+            <div class="btns">
+              <button title="Solicitar Tutoría">
+                <a routerLink="/tutorias_estudiante">+</a>
+              </button>
+            </div>
+          </div>
+          <div class="box">
+            <div class="name_job">Aplicaciones Web II</div>
+            <h4>Ing. William Delgado</h4>
+            <p>Horario:</p>
+            <p>Martes, Jueves</p>
+            <p>15H00 - 18H00</p>
+            <div class="btns">
+              <button title="Solicitar Tutoría">
+                <a routerLink="/tutorias_estudiante">+</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

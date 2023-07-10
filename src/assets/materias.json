@@ -1,0 +1,42 @@
+{
+    "materias": [
+        {
+            "nombre": "Interfaz Humano Computador",
+            "profesor": "Ing. Estefanía Rosero",
+            "horario": [
+                "Lun",
+                "Martes",
+                "Miércoles"
+            ],
+            "horarioDetalles": "14:00 - 16:00"
+        },
+        {
+            "nombre": "Aplicaciones Web I",
+            "profesor": "Ing. Nicol Proaño",
+            "horario": [
+                "Lun",
+                "Miércoles",
+                "Viernes"
+            ],
+            "horarioDetalles": "13:00 - 15:00"
+        },
+        {
+            "nombre": "Inteligencia Artificial",
+            "profesor": "Ing. Maria López",
+            "horario": [
+                "Martes",
+                "Jueves"
+            ],
+            "horarioDetalles": "15:00 - 18:00"
+        },
+        {
+            "nombre": "Aplicaciones Web II",
+            "profesor": "Ing. Maicol Alonso",
+            "horario": [
+                "Martes",
+                "Jueves"
+            ],
+            "horarioDetalles": "15:00 - 18:00"
+        }
+    ]
+}

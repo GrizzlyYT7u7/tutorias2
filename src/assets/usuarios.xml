@@ -1,0 +1,18 @@
+<usuarios>
+  <usuario>
+    <nombre>Jennifer</nombre>
+    <apellido>Vásquez</apellido>
+    <correo_institucional>e1315611512@live.uleam.edu.ec</correo_institucional>
+    <carrera>Ingeniería en TI</carrera>
+    <telefono>0918456484</telefono>
+    <contrasena>123456</contrasena>
+  </usuario>
+  <usuario>
+    <nombre>Lucía</nombre>
+    <apellido>Jiménez</apellido>
+    <correo_institucional>e1312516151@live.uleam.edu.ec</correo_institucional>
+    <carrera>Ingeniería en Sistemas</carrera>
+    <telefono>0954613151</telefono>
+    <contrasena>123456</contrasena>
+  </usuario>
+</usuarios>
